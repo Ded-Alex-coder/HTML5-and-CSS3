@@ -25,7 +25,7 @@ main {
 }
 
 .dignity, .reviews {
-    background: lightgrey;
+    background: rgb(245, 245, 245);
 }
 
 .title_product {
@@ -134,6 +134,59 @@ main {
     line-height: 30px;
 }
 
+.reviews>div {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 25px;
+}
+
+.reviews>h2 {
+    padding-bottom: 35px;
+}
+
+.reviews_block {    
+    width: 450px;    
+    background-color:  rgb(235, 235, 235);
+    padding: 16px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.reviews_block::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 15px solid transparent;
+    border-right: 20px solid rgb(235, 235, 235);
+    position: absolute;
+    top: 20px;
+    left:-30px;
+}
+
+.reviews_block>img {
+    position: absolute;
+    left: -90px;
+    top: 0;
+}
+
+.reviews_block>h6 {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.reviews_text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
 .prices_block {
     display: flex;
     justify-content: space-around;
@@ -201,6 +254,11 @@ main {
     padding: 15px 110px;
 }
 
+.buy_button:hover {
+    background-color: greenyellow;
+    color: darkmagenta;
+}
+
 .contacts>h2 {
     color: #ffffff;
     font-size: 30px;
@@ -247,7 +305,7 @@ main {
     color: #445162;        
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24px;    
     text-transform: uppercase;    
     align-self: center;
     border-radius: 10px;
@@ -255,9 +313,15 @@ main {
     padding: 15px 50px;
 }
 
+.form_button:hover {
+    background-color: greenyellow;
+    color: darkmagenta;
+}
+
 .contact {    
     list-style: none;
-    list-style-position: inside;    
+    list-style-position: inside;
+    margin-bottom: 30px;    
 }
 
 .contact>li {
@@ -295,6 +359,10 @@ main {
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
+}
+
+.social_button:hover {
+    color: greenyellow;    
 }
 
 footer>p {
