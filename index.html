@@ -8,17 +8,24 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>Waxom</title>
 </head>
 
 <body>
     <header>
         <button class="header_button">
-            <img src="pictures/left.svg" alt="pictures">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73">
+                <g>
+                    <g opacity=".5">
+                        <path d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z" />
+                        <path d="M38.026 72.98L.005 36.497 38.026.018l1.969 2.004L4.066 36.498l35.929 34.479z" />
+                    </g>
+                </g>
+            </svg>
         </button>
         <div class="header conteiner">
-            <article class="header_menu">
-                <a href="index.html"><img src="pictures/Logo.png" alt="Logo"></a>
+            <div class="header_menu">
+                <a href="index.html"><img class="logotip" src="pictures/Logo.png" alt="Logo"></a>
                 <nav>
                     <a class="link" href="#">Home</a>
                     <a class="link" href="#">About Us</a>
@@ -28,12 +35,37 @@
                     <a class="link" href="#">Pricing</a>
                     <a class="link" href="#">Shortcodes</a>
                     <a class="link" href="#">Contact</a>
-                    <img style="margin-right: 30px;" src="pictures/icon-cart.svg" alt="pictures" width="18px"
-                        height="24px">
-                    <img src="pictures/icon-search.svg" alt="pictures" width="18px" height="24px">
+                    <a class="link" href="#"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="18" height="24"
+                            viewBox="0 0 18 24">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
+                                    <path
+                                        d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
+                                </g>
+                            </g>
+                        </svg></a>
+                    <form action="#" class="search">
+                        <input class="search-field" id="field" type="search">
+                        <label for="field">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z" />
+                                        <path
+                                            d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </label>
+                    </form>
+
                 </nav>
 
-            </article>
+            </div>
             <div class="header_content">
                 <h2>Unique and Modern Design</h2>
                 <h1>Portfolio PSD Template</h1>
@@ -57,7 +89,14 @@
 
         </div>
         <button class="header_button">
-            <img src="pictures/right.svg" alt="pictures">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="73" viewBox="0 0 40 73">
+                <g>
+                    <g>
+                        <path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z" />
+                        <path d="M1.974 72.98l38.021-36.482L1.974.018.004 2.022l35.93 34.476L.004 70.977z" />
+                    </g>
+                </g>
+            </svg>
         </button>
     </header>
 
@@ -157,21 +196,24 @@
         <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
             dynamicus, qui sequitur mutationem consuetudium.</p>
         <div class="images_block">
-            <img src="pictures/realizaishon.png" alt="pictures">
+            <img class="left" src="pictures/browser-left.jpg" alt="pictures">
+            <img class="centr" src="pictures/browser-center.jpg" alt="pictures">
+            <img class="right" src="pictures/browser-right.jpg" alt="pictures">
+            <!-- <img src="pictures/realizaishon.png" alt="pictures"> -->
         </div>
     </section>
 
-    <article class="gradient">
+    <aside class="gradient">
         <div class="conteiner">
             <div class="theme">
                 <aside class="theme_tex">
                     <h2>Waxom Multipurpose WordPress Theme</h2>
                     <p>Don't Forget to Rate the Template. Thanks so much!</p>
                 </aside>
-                <a class="theme_link" target="_bold" href="#">Purchase Now</a>
+                <a class="theme_link" target="bold" href="#">Purchase Now</a>
             </div>
         </div>
-    </article>
+    </aside>
 
     <section class="project conteiner">
         <h2>Our Latest Projects.</h2>
@@ -184,11 +226,319 @@
             <button type="button" class="filter">Illustration</button>
             <button type="button" class="filter">Photography</button>
         </div>
-        <article class="latest_projects.">
 
-        </article>
+        <div class="project_block">
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo1.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Claritas Etiam Processus</h3>
+                    <p>Photography, Nature</p>
+                </div>
+            </article>
+
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo2.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Quam Nutamus Farum</h3>
+                    <p>Graphic Design, Mock-Up</p>
+                </div>
+            </article>
+
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo3.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Usus Legentis Videntur</h3>
+                    <p>Photography, Holiday</p>
+                </div>
+            </article>
+
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo4.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Claritas Etiam Processus</h3>
+                    <p>Photography, Nature</p>
+                </div>
+            </article>
+
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo5.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Quam Nutamus Farum</h3>
+                    <p>Graphic Design, Mock-Up</p>
+                </div>
+            </article>
+
+            <article class="latest_projects">
+                <div class="item">
+                    <img src="pictures/project-img/photo6.jpg" alt="pictures">
+                    <div class="overlay">
+                        <span><i class="fas fa-link"></i></span>
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="signature">
+                    <h3>Usus Legentis Videntur</h3>
+                    <p>Photography, Holiday</p>
+                </div>
+            </article>
+        </div>
+
         <button type="button">Load More</button>
     </section>
+
+    <section class="video">
+        <video class="video-file" autoplay loop muted src="pictures/Keyboard - 1046.mp4">
+        </video>
+        <h2>Waxom Video Presentation</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
+            consuetudium.
+        </p>
+    </section>
+
+    <div class="devices conteiner">
+        <img src="pictures/ryka_telefon.png" alt="pictures">
+        <article class="devices_text">
+            <h2>Excellent for Mobile Devices</h2>
+            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
+                claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <ul class="list">
+                <li class="items">Nam liber tempor cum soluta nobis eleifend option;</li>
+                <li class="items">Option congue nihil imperdiet doming id quod
+                    mazim placerat facer;</li>
+                <li class="items">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                <li class="items">Investigationes
+                    demonstraverunt lectores;</li>
+            </ul>
+        </article>
+    </div>
+
+    <aside class="gradient">
+        <div class="gradient_conteiner">
+            <div class="column">
+                <img src="pictures/gradient-icon/icon_12189.svg" alt="pictures">
+                <h2>3587</h2>
+                <p>Satisfied Clients</p>
+            </div>
+            <div class="column">
+                <img src="pictures/gradient-icon/icon_12190.svg" alt="pictures">
+                <h2>207</h2>
+                <p>Cups of coffee</p>
+            </div>
+            <div class="column">
+                <img src="pictures/gradient-icon/icon_12191.svg" alt="pictures">
+                <h2>2500</h2>
+                <p>Blog posts</p>
+            </div>
+            <div class="column">
+                <img src="pictures/gradient-icon/icon_12192.svg" alt="pictures">
+                <h2>873</h2>
+                <p>Likes</p>
+            </div>
+            <div class="column">
+                <img src="pictures/gradient-icon/icon_12193.svg" alt="pictures">
+                <h2>900</h2>
+                <p>We launched</p>
+            </div>
+        </div>
+    </aside>
+
+    <section class="posts conteiner">
+        <h2>Recent Posts</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+            dynamicus, qui sequitur mutationem consuetudium.</p>
+        <div class="posts_block">
+            <article class="section">
+                <div class="thumb">
+                    <img src="pictures/post-img/bg_photo_11639.jpg" alt="pictures">
+                    <div class="blackout">
+                    </div>
+                    <div class="calendar">
+                        <div>
+                            <h2>30</h2>
+                        </div>
+                        <div>
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumb-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    <a href="#">Read More <i class="fas fa-caret-right"></i></a>
+                </div>
+            </article>
+            <article class="section">
+                <div class="thumb">
+                    <img src="pictures/post-img/photo_11710.jpg" alt="pictures">
+                    <div class="blackout">
+                    </div>
+                    <div class="calendar">
+                        <div>
+                            <h2>30</h2>
+                        </div>
+                        <div>
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumb-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    <a href="#">Read More <i class="fas fa-caret-right"></i></a>
+                </div>
+            </article>
+            <article class="section">
+                <div class="thumb">
+                    <img src="pictures/post-img/bg_photo_11718.jpg" alt="pictures">
+                    <div class="blackout">
+                    </div>
+                    <div class="calendar">
+                        <div>
+                            <h2>30</h2>
+                        </div>
+                        <div>
+                            <p>Sep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumb-text">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    <a href="#">Read More <i class="fas fa-caret-right"></i></a>
+                </div>
+            </article>
+        </div>
+        <div class="posts_button">
+            <button class="chevron" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                    height="24px" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd"
+                        d="M8.582764,11.434082 C8.582764,11.434082 13.354858,6.661133 13.354858,6.661133 C13.641541,6.3745117 14.107849,6.3745117 14.395264,6.661133 C14.681885,6.9487305 14.681885,7.4155273 14.395264,7.7021484 C14.395264,7.7021484 10.140686,11.957031 10.140686,11.957031 C10.140686,11.957031 14.395264,16.21045 14.395264,16.21045 C14.681885,16.497559 14.681885,16.96289 14.395264,17.251465 C14.107849,17.538574 13.641541,17.538574 13.354858,17.251465 C13.354858,17.251465 8.582764,12.47998 8.582764,12.47998 C8.437683,12.334961 8.365662,12.14502 8.3671875,11.957031 C8.3671875,11.766602 8.437683,11.579102 8.582764,11.434082 ZM11.987427,1.0258789 C18.053467,1.0258789 22.972107,5.9433594 22.972107,12.010742 C22.972107,18.076172 18.053467,22.994629 11.987427,22.994629 C5.9211426,22.994629 1.0032349,18.076172 1.0032349,12.010742 C1.0032349,5.9433594 5.9211426,1.0258789 11.987427,1.0258789 ZM11.987427,21.52295 C17.232239,21.52295 21.50055,17.253418 21.50055,12.010742 C21.50055,6.7651367 17.232239,2.4970703 11.987427,2.4970703 C6.743164,2.4970703 2.4748535,6.7651367 2.4748535,12.010742 C2.4748535,17.253418 6.743164,21.52295 11.987427,21.52295 Z" />
+                </svg>
+            </button>
+            <button class="chevron" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                    height="24px" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd"
+                        d="M15.417053,11.434082 C15.417053,11.434082 10.644897,6.661133 10.644897,6.661133 C10.358215,6.3745117 9.891846,6.3745117 9.604492,6.661133 C9.31781,6.9487305 9.31781,7.4155273 9.604492,7.7021484 C9.604492,7.7021484 13.859192,11.957031 13.859192,11.957031 C13.859192,11.957031 9.604492,16.21045 9.604492,16.21045 C9.31781,16.497559 9.31781,16.96289 9.604492,17.251465 C9.891846,17.538574 10.358215,17.538574 10.644897,17.251465 C10.644897,17.251465 15.417053,12.47998 15.417053,12.47998 C15.562195,12.334961 15.634033,12.14502 15.63269,11.957031 C15.63269,11.766602 15.562195,11.579102 15.417053,11.434082 ZM12.012329,1.0258789 C5.946289,1.0258789 1.0275879,5.9433594 1.0275879,12.010742 C1.0275879,18.076172 5.946289,22.994629 12.012329,22.994629 C18.078613,22.994629 22.996582,18.076172 22.996582,12.010742 C22.996582,5.9433594 18.078613,1.0258789 12.012329,1.0258789 ZM12.012329,21.52295 C6.767639,21.52295 2.4992065,17.253418 2.4992065,12.010742 C2.4992065,6.7651367 6.767639,2.4970703 12.012329,2.4970703 C17.256592,2.4970703 21.524902,6.7651367 21.524902,12.010742 C21.524902,17.253418 17.256592,21.52295 12.012329,21.52295 Z" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <div class="label">
+        <div class="label_block conteiner">
+            <img class="label-img" src="pictures/footer-img/logo_01_11138.png" alt="pictures">
+            <img class="label-img" src="pictures/footer-img/logo_02_11139.png" alt="pictures">
+            <img class="label-img" src="pictures/footer-img/logo_03_11140.png" alt="pictures">
+            <img class="label-img" src="pictures/footer-img/logo_04_11141.png" alt="pictures">
+        </div>
+    </div>
+
+    <footer>
+        <section class="info-box">
+            <div class="conteiner footer_top_block">
+                <article class="information">
+                    <img src="pictures/Logo.png" alt="logotip">
+                    <p class="waxom-t">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        suscipit lobortis claritatem.</p>
+                    <a href="#">Read More <i class="fas fa-caret-right"></i></a>
+                </article>
+                <article class="information">
+                    <h3>Recent Posts</h3>
+                    <div class="excerpt">
+                        <h6>September 08, 2015</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                    <hr>
+                    <div class="excerpt">
+                        <h6>September 08, 2015</h6>
+                        <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                    </div>
+                    <hr>
+                    <div class="excerpt">
+                        <h6>September 08, 2015</h6>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                    </div>
+                </article>
+                <article class="information">
+                    <h3>Our Twitter</h3>
+                    <div class="excerpt">
+                        <p><a href="#">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                        <h6>3 mins ago</h6>
+                    </div>
+                    <hr>
+                    <div class="excerpt">
+                        <p>Mirum est <a href="#">#envato</a> notare quam littera gothica, quam nunc putamus parum
+                            anteposuerit
+                            litterarum</p>
+                        <h6>5 hours ago</h6>
+                    </div>
+                    <hr>
+                    <div class="excerpt">
+                        <p>Soluta nobis option bit.ly/1Hniso7</p>
+                        <h6>20 days ago</h6>
+                    </div>
+                </article>
+                <article class="information">
+                    <h3>Dribbble Widget</h3>
+                    <div class="information-img">
+                        <img class="images" src="pictures/footer-img/bg_photo_8842.jpg" alt="pictures">
+                        <img class="images" src="pictures/footer-img/bg_photo_9778.jpg" alt="pictures">
+                        <img class="images" src="pictures/footer-img/bg_photo_9781.jpg" alt="pictures">
+                        <img class="images" src="pictures/footer-img/bg_photo_9784.jpg" alt="pictures">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <div class="footer_bottom">
+            <div class="conteiner list_block">
+                <ul class="footer-list">
+                    <li>Copyright &copy; 2015 <span>Waxom</span> | </li>
+                    <li>Privacy Policy | </li>
+                    <li><a href="#">FAQ | </a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li>Designed by <span>ThemeFire</span> | </li>
+                    <li>Only on <span>Envato Market</span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
