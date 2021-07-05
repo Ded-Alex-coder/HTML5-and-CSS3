@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson-1</title>
+    <style>
+        .product,
+        .Contacts {
+            background: gray;
+        }
+
+        .product,
+        .about {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Dignity,
+        .Reviews {
+            background: lightgrey;
+        }
+
+        .Dignity_block,
+        .Screenshots_block,
+        .Screenshots_cell {
+            display: flex;
+        }
+
+        .Prices_block {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .Contacts_block {
+            display: flex;
+            justify-content: center;
+        }
+
+        .crust,
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Buy_button {
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="product">
+            <div>
+                <h1>Product name</h1>
+                <ul class="product_list">
+                    <li>Put on this page information about your product</li>
+                    <li>A detailed description of your product</li>
+                    <li>Tell us about the advantages and merits</li>
+                    <li>Assosiate the page with the payment system</li>
+                </ul>
+            </div>
+            <div>
+                <img class="product_img" src="#" alt="Pictures">
+            </div>
+        </header>
+
+        <section class="about">
+            <div>
+                <h2>About your product</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nam quaerat necessitatibus autem
+                    commodi,
+                    illo libero provident vero tempora porro beatae unde a quam tempore maiores aperiam quas sunt optio!
+                </p>
+            </div>
+            <div>
+                <img class="about_img" src="#" alt="Pictures">
+            </div>
+        </section>
+
+        <section class="Dignity">
+            <h2 style="text-align: center;">Dignity and pluses product</h2>
+            <div class="Dignity_block">
+                <div class="block">
+                    <ul class="Dignity_list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <ul class="Dignity_list">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quis repellendus
+                            quas,
+                            quia officiis impedit vel maiores tenetur iusto, quae vero excepturi facilis voluptatum
+                            rerum!
+                            Provident nam dicta tempore!</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="Screenshots">
+            <h2 style="text-align: center;">Screenshots</h2>
+            <div class="Screenshots_block">
+                <div>
+                    <figure class="Screenshots_cell">
+                        <p><img src="#" alt="Pictures"></p>
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto pariatur voluptates
+                            debitis culpa odio assumenda corrupti ad veniam velit? Quibusdam ea vel inventore? Officia
+                            dolorum quis quam perspiciatis quisquam quo.</figcaption>
+                    </figure>
+                    <figure class="Screenshots_cell">
+                        <p><img src="#" alt="Pictures"></p>
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto pariatur voluptates
+                            debitis culpa odio assumenda corrupti ad veniam velit? Quibusdam ea vel inventore? Officia
+                            dolorum quis quam perspiciatis quisquam quo.</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure class="Screenshots_cell">
+                        <p><img src="#" alt="Pictures"></p>
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto pariatur voluptates
+                            debitis culpa odio assumenda corrupti ad veniam velit? Quibusdam ea vel inventore? Officia
+                            dolorum quis quam perspiciatis quisquam quo.</figcaption>
+                    </figure>
+                    <figure class="Screenshots_cell">
+                        <p><img src="#" alt="Pictures"></p>
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto pariatur voluptates
+                            debitis culpa odio assumenda corrupti ad veniam velit? Quibusdam ea vel inventore? Officia
+                            dolorum quis quam perspiciatis quisquam quo.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="Reviews">
+            <h2 style="text-align: center;">Reviews</h2>
+
+        </section>
+
+        <Section class="Prices">
+            <h2 style="text-align: center;">Buy it now</h2>
+            <div class="Prices_block">
+                <article class="Standart crust">
+                    <h3 style="text-align: center;">Standart</h3>
+                    <h2 style="text-align: center;">100$</h1>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ol>
+                        <a href="#" class="Buy_button">BUY</a>
+                </article>
+                <article class="Premium crust">
+                    <h3 style="text-align: center;">Premium</h3>
+                    <h2 style="text-align: center;">150$</h2>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    </ol>
+                    <a href="#" class="Buy_button">BUY</a>
+                </article>
+                <article class="Lux crust">
+                    <h3 style="text-align: center;">Lux</h3>
+                    <h2 style="text-align: center;">200$</h2>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    </ol>
+                    <a href="#" class="Buy_button">BUY</a>
+                </article>
+            </div>
+        </Section>
+
+        <section class="Contacts">
+            <h2 style="text-align: center;">Contacts</h2>
+            <div class="Contacts_block">
+                <div>
+                    <form class="form" action="URL">
+                        <input type="text" size="30" placeholder="Your Name:"> <br>
+                        <input type="email" placeholder="Your Email:"> <br>
+                        <textarea cols="30" rows="4" placeholder="Your Message:"></textarea> <br>
+                        <button style="align-self: center;" type="submit">SEND</button> <br>
+                    </form>
+                </div>
+                <div>
+                    <ul>
+                        <li>here_your_login_skype</li>
+                        <li>279679659</li>
+                        <li>psdhtmlcss@mail.ru</li>
+                        <li>80 00 4568 55 55</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p style="text-align: center;">Copyright &copy; 2014 Product name. PSD HTML CSS</p>
+        </footer>
+
+    </main>
+
+</body>
